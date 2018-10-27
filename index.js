@@ -5,15 +5,15 @@ var recipes = {};
 function updateObjectWithKeyAndValue(object, key, value){
  var copy = Object.assign({}, object);
  copy[key] = value;
+ copy.key = copy;
   return copy;
  
 }
   
-function updateObjectWithKeyAndValue(object, key, value){
+
  
-  recipes.key = recipes ;
-  return recipes;
-}
+ 
+
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   object[key] = value;
