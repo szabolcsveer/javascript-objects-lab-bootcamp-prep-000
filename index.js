@@ -30,6 +30,7 @@ function deleteFromObjectByKey(object, key){
 function destructivelyDeleteFromObjectByKey(object, key){
   recipes.key = recipes;
   delete recipes.key;
+  delete object[key];
   return recipes;
   
 }
