@@ -9,38 +9,3 @@ function updateObjectWithKeyAndValue(object, key, value){
  
 }
   
-function updateObjectWithKeyAndValue(object, key, value){
- 
-  recipes.key = recipes ;
-  return recipes;
-}
-
-function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
-  object[key] = value;
-  return object;
-  
-}
-
-function deleteFromObjectByKey(object, key){
-  recipes.key = recipes;
-  delete recipes.key;
-}
-
-function deleteFromObjectByKey(object, key){
-  var newObj = Object.assign({}, recipes);
-  delete newObj.key;
-  return newObj;
-}
-
-function destructivelyDeleteFromObjectByKey(object, key){
-  recipes.key = recipes;
-  delete recipes.key;
-  return recipes;
-  
-}
-
-function destructivelyDeleteFromObjectByKey(object, key){
- 
- 
-   return recipes;
-  }
